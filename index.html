@@ -15,15 +15,23 @@
 <body>
 
 <header>
-    <h1>Jack Felix Smirnov</h1>
-    <p>Junior Software Developer · Data Engineering</p>
+    <div class="profile-image">
+        <img src="profile.jpeg" alt="Profile picture">
+    </div>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="https://github.com/MrStaircase">GitHub</a>
-    </nav>
+    <div class="header-content">
+        <h1>Jack Felix Smirnov</h1>
+        <p>Junior Software Developer · Data Engineering</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <a class="download-button" href="cv.pdf" download="Jack Felix Smirnov CV.pdf">Download CV</a>
+        </nav>
+    </div>
 </header>
 
 <main>
@@ -36,9 +44,11 @@
             data engineering, and systems programming. Interested in building
             reliable software and working with data-driven applications.
         </p>
+    </section>
 
+    <section id="skills">
+        <h2>Skills</h2>
         <p>
-            <strong>Skills:</strong>
             Python, Java, C++, SQL, PostgreSQL, MongoDB, Pandas,
             Git, Linux, Bash, and Make.
         </p>
@@ -47,42 +57,52 @@
     <section id="projects">
         <h2>Projects</h2>
 
-        <div class="project">
-            <h3>C++ Game</h3>
+        <div class="projects">
+            <div class="project">
+                <h3>C++ Game</h3>
 
-            <p>
-                A game developed in C++ and SFML, originally created during
-                a 47-hour game jam and later expanded as a C++ course project.
-            </p>
+                <p>
+                    A game developed in C++ and SFML, originally created during
+                    a 47-hour game jam and later expanded as a C++ course project.
+                </p>
 
-            <p>
-                <strong>Technologies:</strong>
-                C++, SFML, Git, Make
-            </p>
+                <p>
+                    <strong>Technologies:</strong>
+                    C++, SFML, Git, Make
+                </p>
 
-            <a href="https://example.com">
-                View project →
-            </a>
+                <a href="https://github.com/MrStaircase/MalfunctionDefence/releases">
+                    View project →
+                </a>
+            </div>
+
+            <div class="project">
+                <h3>Semantic Data Catalog</h3>
+
+                <p>
+                    A data catalog project focused on data modelling,
+                    transformation, interoperability, and semantic data.
+                </p>
+
+                <p>
+                    <strong>Technologies:</strong>
+                    RDF, XML, XSLT, JSON, JSON-LD, CSV, SPARQL
+                </p>
+
+                <a href="https://github.com/MrStaircase/Data-Formats-T1G1">
+                    View project →
+                </a>
+            </div>
         </div>
+    </section>
 
-        <div class="project">
-            <h3>Semantic Data Catalog</h3>
-
-            <p>
-                A data catalog project focused on data modelling,
-                transformation, interoperability, and semantic data.
-            </p>
-
-            <p>
-                <strong>Technologies:</strong>
-                RDF, XML, XSLT, JSON, JSON-LD, CSV, SPARQL
-            </p>
-
-            <a href="https://example.com">
-                View project →
-            </a>
-        </div>
-
+     <section id="education">
+        <h2>Education</h2>
+        <p>
+            <strong>B.Sc. in Computer Science (Data and Web)</strong><br>
+            <i>Charles University in Prague</i><br>
+            2022-2027<br>
+        </p>
     </section>
 
     <section id="contact">
@@ -94,9 +114,9 @@
         </p>
 
         <p>
-            <a href="mailto:itay.smirnov.2207+github@gmail.com">
-                itay.smirnov.2207+github@gmail.com
-            </a>
+            <strong>Email:</strong> itay.smirnov.2207 (at) gmail.com<br>
+            <a href="https://www.linkedin.com/in/jack-felix-smirnov-305441188/"><strong>LinkedIn</strong></a><br>
+            <a href="https://github.com/MrStaircase"><strong>GitHub</strong></a>
         </p>
     </section>
 
