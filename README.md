@@ -1,3 +1,3 @@
 # SmirnovFamily.github.io
 
-[Malfunction Defence](https://github.com/MrStaircase/MalfunctionDefence)
+[Malfunction Defence](https://github.com/MrStaircase/MalfunctionDefence/releases)
